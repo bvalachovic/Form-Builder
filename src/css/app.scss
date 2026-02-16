@@ -1,0 +1,57 @@
+// Global styles for Form Builder
+
+.canvas-area {
+  min-height: 400px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  transition: border-color 0.2s, background-color 0.2s;
+
+  &:empty,
+  &.empty-canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.canvas-area.sortable-drag {
+  border-color: $primary;
+  background-color: rgba($primary, 0.05);
+}
+
+.palette-item {
+  cursor: grab;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  transition: background-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.form-element-card {
+  transition: box-shadow 0.15s;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+
+  &.sortable-ghost {
+    opacity: 0.5;
+    background-color: #e3f2fd;
+  }
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+}

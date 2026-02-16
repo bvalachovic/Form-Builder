@@ -1,0 +1,25 @@
+{
+  "name": "form-builder",
+  "version": "0.0.1",
+  "description": "Form Builder POC",
+  "productName": "Form Builder",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "lint": "eslint --ext .js,.vue ./src"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.0",
+    "pinia": "^2.1.0",
+    "quasar": "^2.16.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.0.0",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^2.0.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
