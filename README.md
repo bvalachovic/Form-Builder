@@ -89,12 +89,12 @@
 <!--
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 -->
-Form-Builder is an experiment, built in collaboration with Claude Code.  Claude code searched for open source and paid form building tools, before deciding on building it with the UI stack I asked it to use (Vue 3, Quasar).  It grabbed one dependency with 
+Form-Builder is an experiment, built in collaboration with Claude Code.  Claude code searched for open source and paid form building tools, before deciding on building it with the UI stack I asked it to use (Vue 3, Quasar).  It grabbed one dependency with vue-draggable
+
+To run the application:
  ```sh
-   vue-draggable
+ npx quasar dev
    ```
-
-
 <!--
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
